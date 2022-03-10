@@ -6,7 +6,7 @@
 
 **Referencias:** [https://www.lorealprofessionnel.es/steampod-barbie](https://www.lorealprofessionnel.es/steampod-barbie)
 
-(./assets/img/referencias/referencia.png)
+!(./assets/img/referencias/referencia.png)
 
 ### Desarrollo de Landing page html + css + (boostrap) + owl carousel + js
 
