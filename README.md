@@ -1,4 +1,4 @@
-# Presupuesto Desarrollo Landing Page L'Oréal Steampod en Ripley
+# Desarrollo Landing Page L'Oréal Steampod en Ripley
 
 **Contacto:** Christian Hahn
 
@@ -6,7 +6,7 @@
 
 **Referencias:** [https://www.lorealprofessionnel.es/steampod-barbie](https://www.lorealprofessionnel.es/steampod-barbie)
 
-![Captura de Pantalla 2022-03-08 a la(s) 21.53.42.png](<https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c7c77fc-666c-4ae9-8820-abc7c8c0de52/Captura_de_Pantalla_2022-03-08_a_la(s)_21.53.42.png>)
+![Esta es una imagen](./assets/img/referencias/referencia.png)
 
 ### Desarrollo de Landing page html + css + (boostrap) + owl carousel + js
 
