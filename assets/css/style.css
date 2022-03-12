@@ -1,0 +1,184 @@
+/* ======================================== */
+/* .bloc_mosaic
+/* ======================================== */
+#steampod .bloc_mosaic {
+  /* padding-top: 3.9vw; */
+  padding-bottom: 3.9vw;
+}
+
+#steampod .bloc_mosaic img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 23.95vw;
+  height: 23.95vw;
+  overflow: hidden;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta .text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta .ctn_button {
+  position: relative;
+  display: inline-block;
+  margin: 1.3vw auto 0;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta picture {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta picture img {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#steampod .bloc_mosaic .bottom .bloc_cta video {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+}
+
+#steampod .bloc_mosaic .ctn_bloc > div {
+  display: block;
+  overflow: hidden;
+  height: 0;
+  transition: opacity 0.5s ease,
+    height 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc > div {
+  height: 47.91vw;
+}
+
+#steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc .top,
+#steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc .bottom {
+  height: 23.95vw;
+}
+
+@media screen and (max-width: 768px) {
+  #steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc > div {
+    height: 280vw;
+  }
+
+  #steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc .ctn_top-txt {
+    height: 100vw;
+  }
+
+  #steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc .top {
+    height: 100vw;
+  }
+
+  #steampod .bloc_mosaic.parallax-fixed-element-init .ctn_bloc .bottom {
+    height: 180.95vw;
+  }
+
+  #steampod
+    .bloc_mosaic.parallax-fixed-element-init
+    .ctn_bloc
+    .bottom
+    .bloc_cta {
+    width: 100vw;
+    height: 80.95vw;
+    position: relative;
+    left: auto;
+    transform: none;
+  }
+
+  #steampod .bloc_mosaic .bottom .bloc_cta picture img {
+    width: 73.8vw;
+    max-width: inherit;
+  }
+
+  #steampod .bloc_mosaic .bottom .bloc_cta .ctn_button {
+    margin-top: 5.95vw;
+  }
+}
+
+@media screen (min-width: 1921) {
+}
+
+/* ======================================== */
+/* .owl-carousel
+/* ======================================== */
+
+.carousel-wrap {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2caae1;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+.owl-carousel .nav-btn {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 100px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  background: url(../images/nav-icon.png) no-repeat scroll 0 0;
+  left: -33px;
+}
+.owl-carousel .next-slide {
+  background: url(../images/nav-icon.png) no-repeat scroll -24px 0px;
+  right: -33px;
+}
+.owl-carousel .prev-slide:hover {
+  background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover {
+  background-position: -24px -53px;
+}
+
+span.img-text {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  cursor: pointer;
+  width: 100%;
+  font-size: 23px;
+  display: block;
+  text-transform: capitalize;
+}
+span.img-text:hover {
+  color: #2caae1;
+}

@@ -5,15 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steampod</title>
-    <!-- BOOSTRAP 5 -->
+    <!-- CSS BOOSTRAP 5 -->
     <link rel="stylesheet" href="assets/css/bs-5.css" />
+    <!-- CSS OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+    <!-- MINI SITE STYLES -->
     <mini-site-styles>
       <link rel="stylesheet" href="assets/css/style.css" />
     </mini-site-styles>
   </head>
   <body>
     <mini-site>
-      <div id="steampod"></div>
+      <div id="steampod">
+        <!-- MOSAIC HEADER SECTION -->
+        <section
+          class="str_bloc bloc_mosaic parallax-fixed-element parallax-fixed-element-init"
+        >
+          <div class="ctn_bloc">
+            <div>
+              <div class="top">
+                <picture>
+                  <source
+                    srcset="assets/images/v_mosaic_01_mob.jpg"
+                    media="(max-width:768px)"
+                  />
+                  <img src="assets/images/v_mosaic_01.jpg" alt="" />
+                </picture>
+              </div>
+              <div class="bottom">
+                <div class="bloc_cta">
+                  <div class="text">
+                    <picture>
+                      <img
+                        src="assets/images/v_cta-mosaic.png"
+                        alt="Barbie x Steampod"
+                      />
+                    </picture>
+                    <!--
+                    <div class="ctn_button">
+                      <p><a class="obj_button" href="Insert your URL">COMPRA ONLINE</a></p>
+                    </div>
+                    -->
+                  </div>
+                  <video
+                    class=""
+                    width="460"
+                    height="460"
+                    autoplay="true"
+                    loop=" true"
+                    muted=" true"
+                    playsinline=" true"
+                  >
+                    <source
+                      src="assets/videos/SmokeBottomLeft_grey.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                <picture>
+                  <source
+                    srcset="assets/images/v_mosaic_02_mob.jpg"
+                    media="(max-width:768px)"
+                  />
+                  <img src="assets/images/v_mosaic_02.jpg" alt="" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- OWL CAROUSEL SECTION -->
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="owl-carousel owl-theme">
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="primer producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="segundo producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="tercer producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="cuarto producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="quinto producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+                <div class="col mx-4-md text-center">
+                  <img
+                    src="assets/images/v_naturally-01.jpeg"
+                    alt="sexto producto carousel"
+                    class="img-fluid"
+                  />
+                  <h4 class="my-3">Producto</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SEGUNDO CARUSEL -->
+      </div>
     </mini-site>
+
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <mini-site-scripts>
+      <script src="assets/js/scripts.js"></script>
+    </mini-site-scripts>
   </body>
 </html>
