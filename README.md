@@ -6,7 +6,7 @@
 
 **Referencias:** [https://www.lorealprofessionnel.es/steampod-barbie](https://www.lorealprofessionnel.es/steampod-barbie)
 
-![imagen de referencia](./assets/img/readme/referencia.png)
+![imagen de referencia](./assets/images/readme/referencia.png)
 
 ### Desarrollo de Landing page html + css + (boostrap) + owl carousel + js
 
@@ -27,6 +27,6 @@ $13 UF + 12.25 % (retención boleta)
 
 Garantía: el código del landing page tendrá respaldo por 6 meses y si algo falla después de la entrega sin haber sido modificado por un externo las correcciones no tendrán costo alguno
 
-![logo.png](assets/img/readme/logo.png)
+![logo.png](assets/images/readme/logo.png)
 
 [www.aincatoni.com](http://www.aincatoni.com)
